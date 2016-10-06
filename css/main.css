@@ -287,40 +287,38 @@ textarea {
 
 
 body {
-    background-color: white;
+    background-color: midnightBlue;
     margin:0;
     padding: 0;
 }
 
-img {
-    border-radius: 100%;
-    position: fixed;
-    bottom: 300px;
-    left: 350px;
-    display: block;
-    width: 15%;
-}
-
 #a {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin: 70px auto 0 auto;
+    border-radius: 300px;
+    font-family: 'Amatic SC';
     color: white;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 30pt;
-    margin: 0;
-    margin-top: -50px;
-    padding: 0;
-    float: left;
-    transition:color 60s ease;
+    padding: 20px;
+    font-size: 20pt;
+    transition: color 4s ease;
+    box-shadow: 0px 0px 25px #fff;
 }
 
 #a:hover {
-    color: thistle;
+    color: dimgrey;
 }
 
-#b {
-    font-family: 'Josefin Slab', serif;
-    font-size: 13pt;
-    width: 400px;
-    float: right;
-    margin: 0;
-    margin-top: -50px;
+#a p {
+    margin-top: 120px;
+    margin-left: 90px;
+}
+
+img {
+    height: 120px;
+    margin-left: 195px;
+    border-radius: 150px;
+    margin-top: 15px;
+    filter: grayscale(100%);
 }
